@@ -6,19 +6,19 @@ import Modal from '@mui/material/Modal';
 import LaunchIcon from '@mui/icons-material/Launch';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-const modalStyle = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
-  p: 4,
-  overflow: "scroll",
-  maxHeight: "100vh",  
-};
+// const modalStyle = {
+//   position: 'absolute',
+//   top: '50%',
+//   left: '50%',
+//   transform: 'translate(-50%, -50%)',
+//   width: 400,
+//   bgcolor: 'background.paper',
+//   border: '2px solid #000',
+//   boxShadow: 24,
+//   p: 4,
+//   overflow: "scroll",
+//   maxHeight: "100vh",  
+// };
 
 
 const MyProjects = ({projects}) => {
@@ -70,7 +70,7 @@ const MyProjects = ({projects}) => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={modalStyle}>
+        <Box className="modal-style" sx={{bgcolor: 'background.paper'}}>
           <button onClick={handleClose} className="btn btn-primary" style={{float: "right", borderRadius: "unset"}}>X</button>
         
         <section className="detail_page">

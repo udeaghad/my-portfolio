@@ -55,7 +55,7 @@ const HomePage = ({projects}) => {
       </section>
       
 
-  <MyProjects projects={projects}/>
+     <MyProjects projects={projects}/>
 
   
     <AboutMe />
