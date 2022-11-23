@@ -63,3 +63,15 @@
     background-color: #1976d2;
     color: whitesmoke;
 }
+
+.detail_container {
+  padding: 0.5rem;
+  margin: 2rem 0;
+  background-color: whitesmoke;
+}
+
+.link-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}

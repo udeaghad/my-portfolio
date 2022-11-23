@@ -37,7 +37,7 @@ const AboutMe = () => {
     </div>
       
       <a href="https://drive.google.com/file/d/1G1GomlMzeTpSMCJlYw0IpLIA_GTzlxYP/view?usp=sharing" alt="Resume" target= "_blank" rel="noreferrer">
-         <button className="resume_btn btn btn-primary">Get my resume</button>
+         <button className="resume_btn btn btn-primary" style={{borderRadius: "unset"}}>Get my resume</button>
       </a>
     <article className="skills-col" style={{marginTop: "2rem"}}>
       <h4 className="skills_heading">My Skills</h4>

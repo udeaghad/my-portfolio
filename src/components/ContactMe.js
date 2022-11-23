@@ -37,7 +37,7 @@ const ContactMe = () => {
           <textarea className="form-control" id="message" rows="3"></textarea>
         </div>
 
-        <button type="submit" className="btn btn-primary">Get in touch</button>
+        <button type="submit" className="btn btn-primary" style={{borderRadius: "unset"}}>Get in touch</button>
       </form>
     </div>
 

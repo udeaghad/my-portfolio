@@ -1,11 +1,10 @@
 import React from 'react';
 import "./App.css";
 import{ Routes, Route } from "react-router-dom";
-
 import Homepage from "./pages/HomePage";
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
-import ProjectDetails from "./pages/ProjectDetails";
+
 
 const App = () => {
 
@@ -14,7 +13,7 @@ const App = () => {
       id: 1, 
       name: "Hotel Reservation App", 
       description: "This application is a web application that you can find your favorite Hotel around the world and reserve it for a specific date, find information about a hotel at details page and cancel a reservation. The project was also done to learn how to work and collaborate in large teams as obtained in real world situations.",
-      stack: ["React", "Redux", "postgres", "RSpec", "Rails"],
+      stack: ["React", "Redux", "Postgres", "RSpec", "Rails"],
       image: "/images/hotel-reservation-app.png",
       source_code: "https://github.com/udeaghad/group-project-hotel-reservation",
       demo: "https://hotel-reservation-i2st.onrender.com/"
@@ -45,17 +44,17 @@ const App = () => {
     id:4,
     name: "Game of throne movie app",
     description: "We are building this JavaScript capstone project based on an external API. We selected an API that provides data about Game of throne movie characters and then built the webapp around it",
-    stack: ["JavaScript", "HTML/CSS", "webpack", "Jest"],
+    stack: ["JavaScript", "HTML/CSS", "Webpack", "Jest"],
     image: "/images/movie-app.png",
     source_code: "https://github.com/udeaghad/JavaScript-Capston-API-web",
-    demo: "https://udeaghad.github.io/JavaScript-Capston-API-web/dist/"
+    demo: "https://udeaghad.github.io/Javascript-Capston-API-web/dist/"
   },
 
   {
     id: 5,
     name: "Space Travelers' Hub",
     description: "In this Project, We worked with the real live data from the SpaceX API. We built a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
-    stack: ["React", "Redux", "Bootstrap", "JavaScript"],
+    stack: ["React", "Redux", "HTML/CSS", "JavaScript"],
     image: "/images/space-travellers-app.png",
     source_code: "https://github.com/udeaghad/space-travelers-hub",
     demo: "https://galaxy-travellers.netlify.app/"
@@ -80,7 +79,7 @@ const App = () => {
       <Container maxWidth="xl">      
       <Routes>
         <Route path="/" element={<Homepage projects={projects} />} />
-        <Route path="/project/:projectId" element={<ProjectDetails projects={projects} />} />
+        
       </Routes>
       </Container>
     </div>
