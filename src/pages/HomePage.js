@@ -42,8 +42,8 @@ const HomePage = ({ projects }) => {
      )}
         <div>
           <p className="intro-text fw-bold" style={{ textAlign: 'justify' }}>
-            I am a full stack web developer with a background in business, banking and finance.
-            Always passionate about solving problems with code and comfortable pair programming
+            My name is Dozie Udeagha and am a full stack web developer with a background in business, 
+            banking and finance. Always passionate about solving problems with code and comfortable pair programming
             and collaborating. As a lifelong learner, I am always working hard to improve my
             skills. Do you have a project you need coded? Do not hesitate to contact me.
           </p>
