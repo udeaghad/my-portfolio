@@ -16,7 +16,7 @@ const AboutMe = () => (
       <div className="about_me_text">
         <p>
           I am full-stack developer who learned how to code at Microverse,
-          a remote software development schoolthat uses pair-programming and real-world
+          a remote software development school that uses pair-programming and real-world
           projects to teach JavaScript, React, Redux and Rails.
         </p>
 
