@@ -9,6 +9,8 @@
 - React
 - Javascript
 - CSS
+- Bootstrap
+- Material UI
 
 ## Portfolio Link
 
