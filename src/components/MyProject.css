@@ -1,37 +1,38 @@
 
-   .App {
-    /* display: flex;
+.App {
+  /* display: flex;
     flex-direction: row; */
-    background-color: whitesmoke;
-    color: #2b2d42
-  } 
+  background-color: whitesmoke;
+  color: #2b2d42;
+}
 
-  *{
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-  }
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
 
-  .intro-text {
-    background-color: #2b2d42;
-    padding: 5%;
-    border: 1px white solid;
-    color: #edf2f4;
-    border-radius: 10px;
-    
-  }
+.intro-text {
+  background-color: #2b2d42;
+  padding: 5%;
+  border: 1px white solid;
+  color: #edf2f4;
+  border-radius: 10px;
+  font-size: 1rem;
+}
 
-  .project_card_container { 
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-  }
+.project_card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
 .card_item {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .stack_container {
@@ -42,7 +43,7 @@
 }
 
 .btn-project-details {
-  width: 100%;  
+  width: 100%;
   border: none;
   font-size: xx-large;
   height: 54px;
@@ -51,38 +52,37 @@
 
 .about-me-text p {
   background-color: #2b2d42;
-    padding: 5%;
-    border: 1px white solid;
-    border-radius: 10px;
-    color: #edf2f4;
-    
+  padding: 5%;
+  border: 1px white solid;
+  border-radius: 10px;
+  color: #edf2f4;
 }
 
 .resume_btn {
   height: 3.5rem;
-    width: 75%;
-    border: none;
-    font-size: xx-large;
-    font-weight: bolder;
-    margin-top: 2rem;
+  width: 75%;
+  border: none;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 2rem;
 }
 
 .skill_group {
   font-size: 12px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .skills_card {
-  border-bottom: 2px solid darkslategray;   
+  border-bottom: 2px solid darkslategray;
   margin-top: 10px;
 }
 
 .stack_name {
   padding: 2px 5px;
-    background-color: #1976d2;
-    color: whitesmoke;
+  background-color: #1976d2;
+  color: whitesmoke;
 }
 
 .detail_container {
@@ -97,31 +97,22 @@
   gap: 3rem;
 }
 
-.modal-style{
+.modal-style {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 95%;
+  width: 90%;
   border: 2px solid #000;
-  box-shadow: 4px;
+  box-shadow: 12px 12px 24px #000;
   padding: 4px;
   margin-top: 10px;
   overflow: scroll;
-  max-height: 100vh;  
-}
-
-.intro-text {
-  font-size: 1rem;
-}
-
-.skill_group {
-  font-size: 12px;
+  max-height: 100vh;
 }
 
 .media-title {
   font-size: 1.5rem;
-  
 }
 
 .contact-section {
@@ -138,24 +129,24 @@
 
 @media screen and (min-width: 768px) {
   .btn-project-details {
-    width: 50%
+    width: 50%;
   }
 
   .intro-text {
     font-size: 1.5rem;
-    width:75%;
+    width: 75%;
   }
 
-  .social-media-container{
-    display: flex;  
+  .social-media-container {
+    display: flex;
   }
 
   .media-title {
     font-size: 1.5rem;
-    width: 50%;    
+    width: 50%;
   }
 
-  .about_me_container{
+  .about_me_container {
     display: flex;
     gap: 3rem;
   }

@@ -15,8 +15,6 @@ import MenuItem from '@mui/material/MenuItem';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 
-
-
 const pages = ['Portfolio', 'About', 'Contact'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -40,10 +38,10 @@ const ResponsiveAppBar = () => {
   // };
 
   return (
-    <AppBar position="static" sx={{backgroundColor: "#2b2d42" }}>
+    <AppBar position="static" sx={{ backgroundColor: '#2b2d42' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <RocketLaunchIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1}} />
+          <RocketLaunchIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -59,7 +57,7 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none',
             }}
           >
-           Home
+            Home
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -88,23 +86,25 @@ const ResponsiveAppBar = () => {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' }
+                display: { xs: 'block', md: 'none' },
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu} >
-                  <Typography 
-                  component="a"
-                  textAlign="center" 
-                  sx={{mr: 3, textDecoration: "none"}}
-                  href={`/#${page}`}
-                  > {page} 
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Typography
+                    component="a"
+                    textAlign="center"
+                    sx={{ mr: 3, textDecoration: 'none' }}
+                    href={`/#${page}`}
+                  >
+                    {' '}
+                    {page}
                   </Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          
+
           <Typography
             variant="h5"
             noWrap
@@ -126,7 +126,7 @@ const ResponsiveAppBar = () => {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
-               href={`#${page}`}
+                href={`#${page}`}
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
@@ -137,19 +137,18 @@ const ResponsiveAppBar = () => {
           </Box>
 
           <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"                
-                color="inherit"
-              >
-                <AccountCircle />
+            size="large"
+            aria-label="account of current user"
+            aria-controls="menu-appbar"
+            aria-haspopup="true"
+            color="inherit"
+          >
+            <AccountCircle />
           </IconButton>
 
-          
         </Toolbar>
       </Container>
     </AppBar>
   );
-}
+};
 export default ResponsiveAppBar;
