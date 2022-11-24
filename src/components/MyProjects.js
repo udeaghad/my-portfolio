@@ -60,7 +60,7 @@ const MyProjects = ({ projects }) => {
                   aria-describedby="modal-modal-description"
 
                 >
-                  <Box className="modal-style" sx={{ bgcolor: 'background.paper', padding: '2%' }}>
+                  <Box className="modal-style" sx={{ bgcolor: 'background.paper', padding: '2%', paddingTop: '5%' }}>
                     <button type="button" onClick={handleClose} className="btn btn-primary" style={{ float: 'right', borderRadius: 'unset' }}>X</button>
 
                     <section className="detail_page">
