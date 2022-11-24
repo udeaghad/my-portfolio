@@ -20,7 +20,7 @@ const App = () => {
     {
       id: 2,
       name: 'Budget App(Xpenda)',
-      description: 'The Ruby on Rails project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what. I created an application that allows the user to register and log in, so that the data is private to them.',
+      description: 'This Ruby on Rails project is about building a mobile web application to manage your budget: you have a list of transactions associated with a category so you can see how much money you spent and on what. I created an application allowing the user to register and log in so that the data is private.',
       stack: ['Ruby', 'Rails', 'Postgres', 'RSpec'],
       image: '/images/budget-app.png',
       source_code: 'https://github.com/udeaghad/Xpenda-App-v2',
