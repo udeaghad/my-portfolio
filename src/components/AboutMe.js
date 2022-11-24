@@ -3,7 +3,8 @@ import Typography from '@mui/material/Typography';
 
 const AboutMe = () => {
   return (
-    <section className="about_me_container">
+    <section className="about_me_container" style={{padding: "5%"}}>
+      <div className="about-me-text">
       <Typography 
       id = "About"
      variant="h3" 
@@ -39,11 +40,19 @@ const AboutMe = () => {
       <a href="https://drive.google.com/file/d/1G1GomlMzeTpSMCJlYw0IpLIA_GTzlxYP/view?usp=sharing" alt="Resume" target= "_blank" rel="noreferrer">
          <button className="resume_btn btn btn-primary" style={{borderRadius: "unset"}}>Get my resume</button>
       </a>
+    </div>
     <article className="skills-col" style={{marginTop: "2rem"}}>
-      <h4 className="skills_heading">My Skills</h4>
+    <Typography 
+     variant="h3" 
+     component="div" 
+     gutterBottom
+     sx={{ fontFamily: 'Nerko One', fontWeight: 400, mt: 10 }}
+     >
+      My Skills
+    </Typography> 
       <div className="skills_card">
         <h6>Front End</h6>
-        <p className="skill_group" style={{fontSize: "12px"}}>
+        <p className="skill_group">
           <span>JavaScript(ES6)</span>|
           <span>React</span>|
           <span>Redux</span>|
@@ -54,7 +63,7 @@ const AboutMe = () => {
 
       <div className="skills_card">
         <h6>Backend</h6>
-        <p className="skill_group" style={{fontSize: "12px"}}>
+        <p className="skill_group" >
           <span>Ruby</span>|
           <span>Rails</span>|
           <span>Postgres</span>
@@ -62,7 +71,7 @@ const AboutMe = () => {
       </div>
       <div className="skills_card">
         <h6>Tools and Methods</h6>
-        <p className="skill_group" style={{fontSize: "12px"}}>
+        <p className="skill_group">
           <span>Git</span>|
           <span>GitHub</span>|
           <span>Heroku</span>|
@@ -75,7 +84,7 @@ const AboutMe = () => {
 
       <div className="skills_card">
         <h6>Professional</h6>
-        <p className="skill_group" style={{fontSize: "12px"}}>
+        <p className="skill_group">
           <span>Remote coding</span>|
           <span>Pair-Programming</span>|
           <span>Mentoring</span>
@@ -84,7 +93,7 @@ const AboutMe = () => {
 
       <div className="skills_card">
         <h6>Certification</h6>
-        <p className="skill_group" style={{fontSize: "12px"}}>
+        <p className="skill_group">
           <span>PRINCE2 Practitioner</span>|
           <span>ITIL Practitioner</span>
         </p>

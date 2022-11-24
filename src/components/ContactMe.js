@@ -1,43 +1,70 @@
 import React from "react"
 import Typography from '@mui/material/Typography';
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactMe = () => {
 
+  const [state, handleSubmit] = useForm("mwkzjpjq");
+  if (state.succeeded) {
+      return <p>Thanks you for contacting me! I will get back to you soon</p>;
+  }
+
   return (
-    <section >
+    <section className="contact-section">
     <Typography 
     id = "Contact"
      variant="h3" 
      component="div" 
      gutterBottom
-     sx={{ fontFamily: 'Nerko One', fontWeight: 400, mt: 10 }}
+     sx={{ fontFamily: 'Nerko One', fontWeight: 400, mt: 10, color: "whitesmoke" }}
      >
       Let's chat
     </Typography>
-    <p>
+    <p className="contact-text">
       Do you have a project we can collaborate on? I'd love to hear about it.
       Also, I"m open to discussing topics related to web development.
       Send me a message on any of my social media account or fill out the form below.      
     </p>
 
     <div>
-      <form>
-        <div className="mb-3">
+      <form onSubmit={handleSubmit}>
+        <div className="name-email-field">
+        <div className="mb-3 name-email-item">
           <label htmlFor="name" className="form-label">Name</label>
-          <input type="text" className="form-control" id="name" />
+          <input type="text" className="form-control" id="name" name="name"/>
+          <ValidationError 
+        prefix="Name" 
+        field="name"
+        errors={state.errors}
+      />
         </div>
 
-        <div className="mb-3">
+        <div className="mb-3 name-email-item">
           <label htmlFor="email" className="form-label">Email address</label>
-          <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+          <input type="email" className="form-control" id="email" aria-describedby="emailHelp" name="email"/>
+          <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+        </div>
         </div>
 
-        <div className="mb-3">
+        <div className="text-area-field">
+
+        <div className="mb-3 text-area-item">
           <label htmlFor="message" className="form-label">Message</label>
-          <textarea className="form-control" id="message" rows="3"></textarea>
+          <textarea className="form-control" id="message" rows="3" name="message"/>
+          <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
         </div>
 
-        <button type="submit" className="btn btn-primary" style={{borderRadius: "unset"}}>Get in touch</button>
+        <button type="submit" className="btn btn-primary contact-button" style={{borderRadius: "unset"}}>Get in touch</button>
+        </div>
+
       </form>
     </div>
 

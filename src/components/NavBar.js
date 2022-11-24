@@ -40,10 +40,10 @@ const ResponsiveAppBar = () => {
   // };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{backgroundColor: "#2b2d42" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <RocketLaunchIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <RocketLaunchIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1}} />
           <Typography
             variant="h6"
             noWrap

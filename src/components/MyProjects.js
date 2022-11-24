@@ -5,21 +5,8 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import LaunchIcon from '@mui/icons-material/Launch';
 import GitHubIcon from '@mui/icons-material/GitHub';
-
-// const modalStyle = {
-//   position: 'absolute',
-//   top: '50%',
-//   left: '50%',
-//   transform: 'translate(-50%, -50%)',
-//   width: 400,
-//   bgcolor: 'background.paper',
-//   border: '2px solid #000',
-//   boxShadow: 24,
-//   p: 4,
-//   overflow: "scroll",
-//   maxHeight: "100vh",  
-// };
-
+import Carousel from 'react-bootstrap/Carousel';
+import PropTypes from "prop-types";
 
 const MyProjects = ({projects}) => {
 
@@ -33,7 +20,7 @@ const MyProjects = ({projects}) => {
   const handleClose = () => setOpen(false);
   
   return (
-    <section className="project-card">
+    <section className="project-card" style={{padding: "5%"}}>
       <Typography 
       id = "Portfolio"
      variant="h3" 
@@ -45,17 +32,19 @@ const MyProjects = ({projects}) => {
     </Typography> 
 
       <div className="project_card_container">
+      <Carousel>
         {projects.map((project) => (
-          <div className="card_item" key={project.id}>
+           <Carousel.Item  key={project.id}>
+              <div className="card_item">
 
             <div className="card_img_container">
               <h2 className="card_title">{project.name}</h2>
               <img src={project.image} alt="project" style={{width: "100%"}} />
             </div>
-
-            <div className="stack_container">
+            
+            <div className="stack_container" >
               {project.stack.map((stack) => (
-                <p className="stack_name" key={stack}>
+                <p className="stack_name" key={stack} style={{backgroundColor: "#2b2d42" }}>
                   <span>{stack}</span>
                 </p>
               ))}
@@ -63,7 +52,7 @@ const MyProjects = ({projects}) => {
             <button onClick={() => handleOpen(project.id)} className="btn-project-details btn btn-primary" style={{borderRadius: "unset"}}>
                See the project
             </button>
-
+           
             <Modal
         open={open}
         onClose={handleClose}
@@ -130,10 +119,17 @@ const MyProjects = ({projects}) => {
         </Box>
       </Modal>
           </div>
+          
+          </Carousel.Item>
   ))}
+  </Carousel>
       </div>
     </section>
   );
 }
+
+MyProjects.propTypes = {
+  projects: PropTypes.array.isRequired,
+};
 
 export default MyProjects;

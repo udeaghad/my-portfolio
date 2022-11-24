@@ -1,13 +1,24 @@
 
-  .App {
-    display: flex;
-    flex-direction: row;
-  }
+   .App {
+    /* display: flex;
+    flex-direction: row; */
+    background-color: whitesmoke;
+    color: #2b2d42
+  } 
 
   *{
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+  }
+
+  .intro-text {
+    background-color: #2b2d42;
+    padding: 5%;
+    border: 1px white solid;
+    color: #edf2f4;
+    border-radius: 10px;
+    
   }
 
   .project_card_container { 
@@ -38,12 +49,22 @@
   font-weight: bolder;
 }
 
+.about-me-text p {
+  background-color: #2b2d42;
+    padding: 5%;
+    border: 1px white solid;
+    border-radius: 10px;
+    color: #edf2f4;
+    
+}
+
 .resume_btn {
   height: 3.5rem;
     width: 75%;
     border: none;
     font-size: xx-large;
     font-weight: bolder;
+    margin-top: 2rem;
 }
 
 .skill_group {
@@ -88,4 +109,128 @@
   margin-top: 10px;
   overflow: scroll;
   max-height: 100vh;  
+}
+
+.intro-text {
+  font-size: 1rem;
+}
+
+.skill_group {
+  font-size: 12px;
+}
+
+.media-title {
+  font-size: 1.5rem;
+  
+}
+
+.contact-section {
+  padding: 0 3rem;
+  background-color: #2b2d42;
+  padding-top: 30px;
+}
+
+.contact-text,
+.name-email-field label,
+.text-area-field label {
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-project-details {
+    width: 50%
+  }
+
+  .intro-text {
+    font-size: 1.5rem;
+    width:75%;
+  }
+
+  .social-media-container{
+    display: flex;  
+  }
+
+  .media-title {
+    font-size: 1.5rem;
+    width: 50%;    
+  }
+
+  .about_me_container{
+    display: flex;
+    gap: 3rem;
+  }
+
+  .about-me-text {
+    width: 50%;
+  }
+
+  .resume_btn {
+    width: 60%;
+  }
+
+  .about-me-text p {
+    font-size: 1.5rem;
+  }
+
+  .skills-col {
+    width: 50%;
+  }
+
+  .skills-heading {
+    font-size: 2rem;
+  }
+
+  .skills_card h6 {
+    font-size: 2rem;
+  }
+
+  .skill_group span {
+    font-size: 1.5rem;
+  }
+
+  .skill_group {
+    font-size: 1.5rem;
+  }
+
+  .contact-section {
+    padding: 0 15rem;
+  }
+
+  .contact-text {
+    font-size: 1.5rem;
+  }
+
+  .name-email-field {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .name-email-item {
+    width: 50%;
+  }
+
+  .name-email-field label {
+    font-size: 1.5rem;
+  }
+
+  .text-area-item label {
+    font-size: 1.5rem;
+  }
+
+  .text-area-field textarea {
+    height: 15rem;
+    font-size: 1.5rem;
+  }
+
+  .name-email-field input {
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-button {
+    width: 100%;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
 }

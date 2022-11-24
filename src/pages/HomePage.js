@@ -4,14 +4,19 @@ import MyProjects from "../components/MyProjects";
 import AboutMe from "../components/AboutMe";
 import ContactMe from "../components/ContactMe"
 import ResponsiveAppBar from "../components/NavBar";
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 
 const HomePage = ({projects}) => {
 
+  const desktop = useMediaQuery('(min-width:768px)');
+  const mobile = useMediaQuery('(max-width:768px)');
+
   return (
      <> 
      <ResponsiveAppBar /> 
-     <section className="home_page">
+     <section className="home_page" style={{padding: "0 6%"}}>
+      {mobile &&
      <Typography 
      variant="h3" 
      component="div" 
@@ -20,9 +25,20 @@ const HomePage = ({projects}) => {
      >
       Pretty code by ingenious person
     </Typography> 
+    } 
 
+    {desktop &&
+     <Typography
+     variant="h1"
+     component="div"
+     gutterBottom
+     sx={{ fontFamily: 'Nerko One', fontWeight: 400, mt: 10, width: "65%" }}
+     >
+      Pretty code by ingenious person
+    </Typography>
+    }
     <div >
-       <p className="fs-6 fw-bold text-secondary" style={{textAlign: "justify"}}>
+       <p className="intro-text fw-bold" style={{textAlign: "justify"}}>
           I am a full stack web developer with a background in business, banking and finance. 
           Always passionate about solving problems with code and comfortable pair programming and collaborating. 
           As a lifelong learner, I am always working hard to improve my skills. Do you have a project you need coded?
@@ -31,24 +47,24 @@ const HomePage = ({projects}) => {
 
     </div>
 
-    <div>
-      <p className="fs-1 my-4 fw-bold">My Works in social networks</p>
+    <div className="social-media-container">
+      <p className="media-title my-4 fw-bold">My Works in social networks</p>
 
       <div className="d-flex justify-content-between align-items-center ">
         <a href="https://github.com/udeaghad" alt="github" target= "_blank" rel="noreferrer" >
-          <img src="/images/github-icon.png" alt="github" style={{width: "40%"}}/>
+          <img src="/images/github-icon.png" alt="github" style={{width: "30%"}}/>
         </a>
 
         <a href=" https://www.linkedin.com/in/dozie-udeagha/" alt="linkedin" target= "_blank" rel="noreferrer" >
-          <img src="/images/linkedin-icon.png" alt="linkedin" style={{width: "40%"}} />
+          <img src="/images/linkedin-icon.png" alt="linkedin" style={{width: "30%"}} />
         </a>
 
         <a href="https://twitter.com/udeaghad" alt="twitter" target= "_blank" rel="noreferrer" >
-          <img src="/images/twitter-icon.png" alt="twitter" style={{width: "40%"}}/>
+          <img src="/images/twitter-icon.png" alt="twitter" style={{width: "30%"}}/>
         </a>
 
         <a href="https://angel.co/u/dozie-udeagha" alt="angelist" target= "_blank" rel="noreferrer" >
-          <img src="/images/angelist-icon.png" alt="angelist" style={{width: "75%"}}/>
+          <img src="/images/angelist-icon.png" alt="angelist" style={{width: "65%"}}/>
         </a>
       </div>
       </div>

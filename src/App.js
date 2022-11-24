@@ -2,8 +2,8 @@ import React from 'react';
 import "./App.css";
 import{ Routes, Route } from "react-router-dom";
 import Homepage from "./pages/HomePage";
-import CssBaseline from '@mui/material/CssBaseline';
-import Container from '@mui/material/Container';
+// import CssBaseline from '@mui/material/CssBaseline';
+// import Container from '@mui/material/Container';
 
 
 const App = () => {
@@ -75,13 +75,13 @@ const App = () => {
   return (
     
     <div className="App">
-      <CssBaseline />
-      <Container maxWidth="xl">      
+      {/* <CssBaseline /> */}
+      {/* <Container maxWidth="xl">       */}
       <Routes>
         <Route path="/" element={<Homepage projects={projects} />} />
         
       </Routes>
-      </Container>
+      {/* </Container> */}
     </div>
   );
 }
