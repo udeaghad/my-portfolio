@@ -39,7 +39,7 @@
   display: flex;
   justify-content: space-evenly;
   gap: 2%;
-  margin-top: 5%;
+  margin: -1.5% 0;
 }
 
 .btn-project-details {
@@ -81,7 +81,7 @@
 
 .stack_name {
   padding: 2px 5px;
-  background-color: #1976d2;
+  /* background-color: #1976d2; */
   color: whitesmoke;
 }
 
@@ -121,10 +121,23 @@
   padding-top: 30px;
 }
 
-.contact-text,
+.contact-text {
+  color: whitesmoke;
+}
+
 .name-email-field label,
 .text-area-field label {
   color: whitesmoke;
+  width: 100%;
+}
+
+.project_description p {
+  background-color: #2b2d42;
+  padding: 5%;
+  border: 1px white solid;
+  color: #edf2f4;
+  border-radius: 10px;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -202,10 +215,12 @@
 
   .name-email-field label {
     font-size: 1.5rem;
+    width: 100%;
   }
 
   .text-area-item label {
     font-size: 1.5rem;
+    width: 100%;
   }
 
   .text-area-field textarea {
