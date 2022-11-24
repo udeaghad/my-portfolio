@@ -49,18 +49,18 @@ const MyProjects = ({ projects }) => {
                   ))}
                 </div>
                 <Carousel.Caption>
-                <button type="button" onClick={() => handleOpen(project.id)} className="btn-project-details btn btn-primary" style={{ borderRadius: 'unset' }}>
-                  See the project
-                </button>
+                  <button type="button" onClick={() => handleOpen(project.id)} className="btn-project-details btn btn-primary" style={{ borderRadius: 'unset' }}>
+                    See the project
+                  </button>
                 </Carousel.Caption>
                 <Modal
                   open={open}
                   onClose={handleClose}
                   aria-labelledby="modal-modal-title"
                   aria-describedby="modal-modal-description"
-                  
+
                 >
-                  <Box className="modal-style" sx={{ bgcolor: 'background.paper', padding: "2%" }}>
+                  <Box className="modal-style" sx={{ bgcolor: 'background.paper', padding: '2%' }}>
                     <button type="button" onClick={handleClose} className="btn btn-primary" style={{ float: 'right', borderRadius: 'unset' }}>X</button>
 
                     <section className="detail_page">
@@ -113,8 +113,8 @@ const MyProjects = ({ projects }) => {
 
                         <div className="stack_container">
                           {projectDetails.stack && projectDetails.stack.map((stack) => (
-                            <p className="stack_name" key={stack} style={{ backgroundColor: '#2b2d42' }} >
-                              <span >{stack}</span>
+                            <p className="stack_name" key={stack} style={{ backgroundColor: '#2b2d42' }}>
+                              <span>{stack}</span>
                             </p>
                           ))}
                         </div>
@@ -130,7 +130,7 @@ const MyProjects = ({ projects }) => {
 
             </Carousel.Item>
           ))}
-          
+
         </Carousel>
       </div>
     </section>
