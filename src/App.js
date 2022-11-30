@@ -41,11 +41,11 @@ const App = () => {
     {
       id: 4,
       name: 'Game of throne movie app',
-      description: 'This application is a web application that you can find your favorite Hotel around the world and reserve it for a specific date, find information about a hotel at details page and cancel a reservation. The project was also done to learn how to work and collaborate in large teams as obtained in real world situations.',
-      stack: ['Node', 'Express', 'MongoDB', 'React', 'Redux'],
-      image: '/images/mern-hotel-api.png',
-      source_code: 'https://github.com/udeaghad/mern-hotel-api',
-      demo: 'https://booooka-hotel-app.netlify.app/',
+      description: 'This project is about building a mobile web application to check a list of movies and their details using React and Redux. I selected an API that provides numeric data about movies and then build the webapp around it',
+      stack: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'Jest'],
+      image: '/images/movie-app.png',
+      source_code: 'https://github.com/udeaghad/Javascript-Capston-API-web',
+      demo: 'https://udeaghad.github.io/Javascript-Capston-API-web/dist/',
     },
 
     {
@@ -71,11 +71,11 @@ const App = () => {
     {
       id: 7,
       name: 'Hotel Booking App',
-      description: 'This project was done to learn the use React components, React props, and React state. It was later updated to Handle events in a React app, use React life cycle methods, and understand the mechanism of lifting state up. Also, React hook was used to refactor the components. Routing was also implemented for this SPA.',
-      stack: ['HTML/CSS', 'JavaScript', 'React'],
-      image: '/images/maths-calculator-app.png',
-      source_code: 'https://github.com/udeaghad/my-maths-calculator',
-      demo: 'https://my-maths-calculator.netlify.app/',
+      description: 'This application is a web application that you can find your favorite Hotel around the world and reserve it for a specific date, find information about a hotel at details page and cancel a reservation. The project was also done to learn how to work and collaborate in large teams as obtained in real world situations.',
+      stack: ['Node', 'Express', 'MongoDB', 'React', 'Redux'],
+      image: '/images/mern-hotel-api.png',
+      source_code: 'https://github.com/udeaghad/mern-hotel-api',
+      demo: 'https://booooka-hotel-app.netlify.app/',
     },
 
   ];
