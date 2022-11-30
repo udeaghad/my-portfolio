@@ -75,7 +75,13 @@ const AboutMe = () => (
           |
           <span>Rails</span>
           |
+          <span>Node</span>
+          |
+          <span>Express</span>
+          |
           <span>Postgres</span>
+          |
+          <span>MongoDB</span>
         </p>
       </div>
       <div className="skills_card">

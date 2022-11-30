@@ -42,7 +42,7 @@ const App = () => {
       id: 4,
       name: 'Game of throne movie app',
       description: 'This application is a web application that you can find your favorite Hotel around the world and reserve it for a specific date, find information about a hotel at details page and cancel a reservation. The project was also done to learn how to work and collaborate in large teams as obtained in real world situations.',
-      stack: ['Node','Express', 'MongoDB', 'React', 'Redux'],
+      stack: ['Node', 'Express', 'MongoDB', 'React', 'Redux'],
       image: '/images/mern-hotel-api.png',
       source_code: 'https://github.com/udeaghad/mern-hotel-api',
       demo: 'https://booooka-hotel-app.netlify.app/',
