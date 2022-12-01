@@ -28,7 +28,7 @@ const ContactMe = () => {
       </p>
 
       <div>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="contact-form">
           <div className="name-email-field">
             <div className="mb-3 name-email-item">
               <label htmlFor="name" className="form-label">
@@ -81,21 +81,21 @@ const ContactMe = () => {
             dozie.udeagha@gmail.com
           </a>
         </p>
-        <div className="d-flex justify-content-between align-items-center ">
+        <div className="d-flex justify-content-between align-items-center footer-media">
           <a href="https://github.com/udeaghad" alt="github" target="_blank" rel="noreferrer">
-            <img src="/images/github-icon.png" alt="github" style={{ width: '40%' }} />
+            <img src="/images/github-icon.png" alt="github" />
           </a>
 
           <a href=" https://www.linkedin.com/in/dozie-udeagha/" alt="linkedin" target="_blank" rel="noreferrer">
-            <img src="/images/linkedin-icon.png" alt="linkedin" style={{ width: '40%' }} />
+            <img src="/images/linkedin-icon.png" alt="linkedin" />
           </a>
 
           <a href="https://twitter.com/udeaghad" alt="twitter" target="_blank" rel="noreferrer">
-            <img src="/images/twitter-icon.png" alt="twitter" style={{ width: '40%' }} />
+            <img src="/images/twitter-icon.png" alt="twitter" />
           </a>
 
           <a href="https://angel.co/u/dozie-udeagha" alt="angelist" target="_blank" rel="noreferrer">
-            <img src="/images/angelist-icon.png" alt="angelist" style={{ width: '75%' }} />
+            <img src="/images/angelist-icon.png" alt="angelist" style={{ width: '40%' }} />
           </a>
         </div>
         <p style={{ textAlign: 'center', marginTop: '1rem', fontSize: '10px' }}>© 2022 Dozie Udeagha</p>
