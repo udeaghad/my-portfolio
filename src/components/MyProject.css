@@ -110,6 +110,7 @@
   margin-top: 10px;
   overflow: scroll;
   max-height: 100vh;
+  padding-top: 15%;
 }
 
 .media-title {
