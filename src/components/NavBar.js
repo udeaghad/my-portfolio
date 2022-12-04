@@ -135,7 +135,6 @@ const ResponsiveAppBar = () => {
               </Button>
             ))}
           </Box>
-
           <IconButton
             size="large"
             aria-label="account of current user"

@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 
 const AboutMe = () => (
-  <section className="about_me_container" style={{ padding: '5%' }}>
+  <section className="about_me_container" style={{ padding: '0 10%' }}>
     <div className="about-me-text">
       <Typography
         id="About"

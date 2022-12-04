@@ -21,9 +21,9 @@ const HomePage = ({ projects }) => {
        variant="h3"
        component="div"
        gutterBottom
-       sx={{ fontFamily: 'Nerko One', fontWeight: 400, mt: 10 }}
+       sx={{ fontFamily: 'Nerko One', fontWeight: 400, mt: 2 }}
      >
-       Pretty code by ingenious person
+       Pretty code by an ingenious person
      </Typography>
      )}
 
@@ -41,7 +41,7 @@ const HomePage = ({ projects }) => {
      </Typography>
      )}
         <div>
-          <p className="intro-text fw-bold" style={{ textAlign: 'justify' }}>
+          <p className="intro-text">
             My name is Dozie Udeagha and am a full stack web developer with a background in
             business, banking and finance. Always passionate about solving problems with code
             and comfortable pair programming and collaborating. As a lifelong learner, I am
@@ -51,7 +51,39 @@ const HomePage = ({ projects }) => {
 
         </div>
 
-        <div className="social-media-container">
+        <div className="social-buttons">
+          <ul>
+            <li>
+              <a href="https://github.com/udeaghad" alt="github" target="_blank" rel="noreferrer">
+                <span style={{ color: 'white' }}>gitHub</span>
+                <i className="icon fa-brands fa-github" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/dozie-udeagha/" alt="linkedin" target="_blank" rel="noreferrer">
+                <span style={{ color: 'white' }}>LinkedIn</span>
+                <i className="icon fa-brands fa-linkedin" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/udeaghad" alt="twitter" target="_blank" rel="noreferrer">
+                <span style={{ color: 'white' }}>twitter</span>
+                <i className="icon fa-brands fa-twitter" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://angel.co/u/dozie-udeagha" alt="angelist" target="_blank" rel="noreferrer">
+                <span style={{ color: 'white' }}>Angelist</span>
+                <i className="icon fa-brands fa-angellist" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* <div className="social-media-container">
           <p className="media-title my-4 fw-bold">My Works in social networks</p>
 
           <div className="d-flex justify-content-between align-items-center ">
@@ -71,7 +103,7 @@ const HomePage = ({ projects }) => {
               <img src="/images/angelist-icon.png" alt="angelist" style={{ width: '65%' }} />
             </a>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <MyProjects projects={projects} />
