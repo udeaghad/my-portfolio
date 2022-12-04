@@ -357,20 +357,16 @@ a {
     transform: translate(-100%, 0);
   }
 
-  .social-buttons ul li {
-    
-    padding: 24px;
-    
-}
-
 .icon {
-  padding: 2%;
-  width: 15%;
-  border-radius: 50%;
-  background: rgb(255, 255, 255);
-  text-align: center;
-  margin-left: 0%;
-  font-size: x-large;
+  
+    padding: 4%;
+    width: 20%;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 0%;
+    font-size: 30px;
+
 }
 
 }
