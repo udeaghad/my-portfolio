@@ -55,28 +55,28 @@ const HomePage = ({ projects }) => {
           <ul>
             <li>
               <a href="https://github.com/udeaghad" alt="github" target="_blank" rel="noreferrer">
-                <span style={{ color: 'white', marginRight: '3%' }}>gitHub</span>
+                <span style={{ color: 'white', marginRight: '5%' }}>gitHub</span>
                 <i className="icon fa-brands fa-github" />
               </a>
             </li>
 
             <li>
               <a href="https://www.linkedin.com/in/dozie-udeagha/" alt="linkedin" target="_blank" rel="noreferrer">
-                <span style={{ color: 'white', marginRight: '3%' }}>LinkedIn</span>
+                <span style={{ color: 'white', marginRight: '5%' }}>LinkedIn</span>
                 <i className="icon fa-brands fa-linkedin" />
               </a>
             </li>
 
             <li>
               <a href="https://twitter.com/udeaghad" alt="twitter" target="_blank" rel="noreferrer">
-                <span style={{ color: 'white', marginRight: '3%' }}>twitter</span>
+                <span style={{ color: 'white', marginRight: '5%' }}>twitter</span>
                 <i className="icon fa-brands fa-twitter" />
               </a>
             </li>
 
             <li>
               <a href="https://angel.co/u/dozie-udeagha" alt="angelist" target="_blank" rel="noreferrer">
-                <span style={{ color: 'white', marginRight: '3%' }}>Angelist</span>
+                <span style={{ color: 'white', marginRight: '5%' }}>Angelist</span>
                 <i className="icon fa-brands fa-angellist" />
               </a>
             </li>
