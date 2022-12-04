@@ -70,7 +70,7 @@
 }
 
 .social-buttons ul li:hover {
-  transform: translate(110px, 0);
+  transform: translate(20%, 0);
 }
 
 .social-buttons ul li i {
