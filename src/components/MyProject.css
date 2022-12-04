@@ -83,6 +83,11 @@ a {
   cursor: pointer;
 }
 
+.media-name {
+  color: whitesmoke;
+  margin-right: 5%;
+}
+
 .card_item {
   display: flex;
   flex-direction: column;
@@ -379,6 +384,11 @@ a {
 
   .social-buttons ul li:hover {
     transform: translate(25%, 0);
+  }
+
+  .media-name {
+    color: whitesmoke;
+    margin-right: 7%;
   }
 }
 
