@@ -55,7 +55,7 @@ const HomePage = ({ projects }) => {
           <ul>
             <li>
               <a href="https://github.com/udeaghad" alt="github" target="_blank" rel="noreferrer">
-                <span style={{ color: 'white', marginRight: '5%' }}>gitHub</span>
+                <span style={{ color: 'white', marginRight: '6%' }}>gitHub</span>
                 <i className="icon fa-brands fa-github" />
               </a>
             </li>

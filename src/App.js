@@ -72,7 +72,7 @@ const App = () => {
       id: 7,
       name: 'Hotel Booking App',
       description: 'This application is a web application that you can find your favorite Hotel around the world and reserve it for a specific date, find information about a hotel at details page and cancel a reservation.',
-      stack: ['Node', 'Express', 'MongoDB', 'React', 'Redux'],
+      stack: ['NodeJS', 'ExpressJS', 'MongoDB', 'React', 'Redux'],
       image: '/images/mern-hotel-api.png',
       source_code: 'https://github.com/udeaghad/mern-hotel-api',
       demo: 'https://booooka-hotel-app.netlify.app/',
