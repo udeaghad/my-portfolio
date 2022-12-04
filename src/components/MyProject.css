@@ -91,11 +91,16 @@ a {
   width: 100%;
 }
 
+.carousel-indicators {
+  top: 100%;
+}
+
 .stack_container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 2%;
-  margin: -1.5% 0;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .btn-project-details {
@@ -202,6 +207,20 @@ a {
   width: 30%;
 }
 
+@media screen and (min-width: 465px) {
+  .social-buttons ul {
+    padding: 0;
+    transform: translate(-96%, 0);
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .social-buttons ul {
+    padding: 0;
+    transform: translate(-100%, 0);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .btn-project-details {
     width: 50%;
@@ -224,6 +243,7 @@ a {
   .about_me_container {
     display: flex;
     gap: 3rem;
+    margin-bottom: 5%;
   }
 
   .about-me-text {
@@ -232,6 +252,7 @@ a {
 
   .resume_btn {
     width: 60%;
+    font-size: x-large;
   }
 
   .about-me-text p {
@@ -258,9 +279,12 @@ a {
     font-size: 1.5rem;
   }
 
-  .contact-section {
+  /* .contact-section {
     padding: 0 15rem;
-  }
+    .contact-section {
+      /* padding: 0 2rem; 
+  
+  } */
 
   .contact-text {
     font-size: 1.5rem;
@@ -321,4 +345,12 @@ a {
   .angelist-icon {
     width: 40%;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-section {
+    
+    padding: 0 15%;
+  }
+
 }

@@ -48,11 +48,9 @@ const MyProjects = ({ projects }) => {
                     </p>
                   ))}
                 </div>
-
                 <button type="button" onClick={() => handleOpen(project.id)} className="btn-project-details btn btn-primary" style={{ borderRadius: 'unset' }}>
                   See the project
                 </button>
-
                 <Modal
                   open={open}
                   onClose={handleClose}
