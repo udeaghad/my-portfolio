@@ -70,7 +70,7 @@
 }
 
 .social-buttons ul li:hover {
-  transform: translate(20%, 0);
+  transform: translate(25%, 0);
 }
 
 .social-buttons ul li i {
@@ -348,9 +348,41 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-  .contact-section {
-    
+  .contact-section {    
     padding: 0 15%;
   }
 
+  .social-buttons ul {
+    padding: 0;
+    transform: translate(-100%, 0);
+  }
+
+  .social-buttons ul li {
+    
+    padding: 24px;
+    
 }
+
+.icon {
+  padding: 2%;
+  width: 15%;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 0%;
+  font-size: x-large;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+  .social-buttons ul {
+    padding: 0;
+    transform: translate(-115%, 0);
+  }
+
+  .social-buttons ul li:hover {
+    transform: translate(25%, 0);
+  }
+}
+
