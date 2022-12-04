@@ -85,7 +85,8 @@ a {
 
 .media-name {
   color: whitesmoke;
-  margin-right: 5%;
+  margin: 0 5%;
+
 }
 
 .card_item {
@@ -388,7 +389,7 @@ a {
 
   .media-name {
     color: whitesmoke;
-    margin-right: 7%;
+    margin: 0 7%;
   }
 }
 
