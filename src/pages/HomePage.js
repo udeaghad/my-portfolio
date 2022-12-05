@@ -83,27 +83,6 @@ const HomePage = ({ projects }) => {
           </ul>
         </div>
 
-        {/* <div className="social-media-container">
-          <p className="media-title my-4 fw-bold">My Works in social networks</p>
-
-          <div className="d-flex justify-content-between align-items-center ">
-            <a href="https://github.com/udeaghad" alt="github" target="_blank" rel="noreferrer">
-              <img src="/images/github-icon.png" alt="github" style={{ width: '30%' }} />
-            </a>
-
-            <a href=" https://www.linkedin.com/in/dozie-udeagha/" alt="linkedin" target="_blank" rel="noreferrer">
-              <img src="/images/linkedin-icon.png" alt="linkedin" style={{ width: '30%' }} />
-            </a>
-
-            <a href="https://twitter.com/udeaghad" alt="twitter" target="_blank" rel="noreferrer">
-              <img src="/images/twitter-icon.png" alt="twitter" style={{ width: '30%' }} />
-            </a>
-
-            <a href="https://angel.co/u/dozie-udeagha" alt="angelist" target="_blank" rel="noreferrer">
-              <img src="/images/angelist-icon.png" alt="angelist" style={{ width: '65%' }} />
-            </a>
-          </div>
-        </div> */}
       </section>
 
       <MyProjects projects={projects} />

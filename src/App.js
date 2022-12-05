@@ -40,7 +40,7 @@ const App = () => {
     {
       id: 4,
       name: 'Crypto Tracker',
-      description: 'This project is about building a mobile web application to check a list of metrics (numeric values) which I created using React and Redux. I selected an API that provides numeric data about cryptocurrency exchange and then build the webapp around it',
+      description: 'This project is about building a mobile web application to check a list of metrics (numeric values) which I created using React and Redux. I selected an API that provides numeric data about cryptocurrency exchange and then build the webapp around it.',
       stack: ['React', 'Redux', 'Jest', 'JavaScript'],
       image: '/images/crypto-app.png',
       source_code: 'https://github.com/udeaghad/crypto-market-app',
@@ -50,7 +50,7 @@ const App = () => {
     {
       id: 5,
       name: 'Game of throne movie app',
-      description: 'This project is about building a mobile web application to check a list of movies and their details using React and Redux. I selected an API that provides numeric data about movies and then build the webapp around it',
+      description: 'This project is about building a mobile web application to check a list of movies and their details using React and Redux. I selected an API that provides numeric data about movies and then build the webapp around it.',
       stack: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'Jest'],
       image: '/images/movie-app.png',
       source_code: 'https://github.com/udeaghad/Javascript-Capston-API-web',
@@ -81,13 +81,9 @@ const App = () => {
   return (
 
     <div className="App">
-      {/* <CssBaseline /> */}
-      {/* <Container maxWidth="xl">       */}
       <Routes>
         <Route path="/" element={<Homepage projects={projects} />} />
-
       </Routes>
-      {/* </Container> */}
     </div>
   );
 };
