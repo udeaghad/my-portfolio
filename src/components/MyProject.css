@@ -36,7 +36,7 @@
 .social-buttons {
   position: fixed;
   top: 30%;
-  z-index: 999;
+  z-index: 0;
 }
 
 .social-buttons ul {
@@ -104,7 +104,14 @@ a {
   height: 54px;
   font-weight: bolder;
   font-size: 80%;
+  position: relative;
+  z-index: 10;
 }
+
+/* .about_me_container {
+  position: relative;
+  z-index: 10;
+} */
 
 .about-me-text p {
   background-color: #2b2d42;
@@ -120,6 +127,8 @@ a {
   border: none;
   font-weight: bolder;
   margin-top: 2rem;
+  position: relative;
+  z-index: 10;
 }
 
 .skill_group {
@@ -202,6 +211,8 @@ a {
 .desktop {
   display: none;
 }
+
+
 
 @media screen and (min-width: 465px) {
   .social-buttons ul {
