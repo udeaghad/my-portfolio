@@ -55,7 +55,7 @@ const HomePage = ({ projects }) => {
           <ul>
             <li>
               <a href="https://github.com/udeaghad" alt="github" target="_blank" rel="noreferrer">
-                <span className="media-name">gitHub</span>
+                <span className="media-name">GitHub</span>
                 <i className="icon fa-brands fa-github" />
               </a>
             </li>
