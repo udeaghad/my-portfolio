@@ -94,7 +94,7 @@ const ResponsiveAppBar = () => {
                   <Typography
                     component="a"
                     textAlign="center"
-                    sx={{ mr: 3, textDecoration: 'none' }}
+                    sx={{ mr: 3, textDecoration: 'none', color: '#2b2d42' }}
                     href={`/#${page}`}
                   >
                     {' '}
