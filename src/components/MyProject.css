@@ -18,6 +18,7 @@
   border: 1px white solid;
   color: #edf2f4;
   border-radius: 10px;
+
   /* font-size: 1rem; */
 }
 
@@ -31,13 +32,15 @@
   text-align: center; */
 
   padding: 2%;
-    /* font-size: 100%; */
-    width: 10%;
-    border-radius: 50%;
-    background: #fff;
-    /* margin: 2% 2%; */
-    text-align: center;
-    margin-left: 3%;
+
+  /* font-size: 100%; */
+  width: 10%;
+  border-radius: 50%;
+  background: #fff;
+
+  /* margin: 2% 2%; */
+  text-align: center;
+  margin-left: 3%;
 }
 
 .project_card_container {
@@ -66,7 +69,6 @@
   text-align: right;
   border-radius: 0 30px 30px 0;
   transition: all 1s;
-  
 }
 
 .social-buttons ul li:hover {
@@ -86,7 +88,6 @@ a {
 .media-name {
   color: whitesmoke;
   margin: 0 7%;
-
 }
 
 .card_item {
@@ -101,6 +102,10 @@ a {
   top: 100%;
 }
 
+.carousel-indicators [data-bs-target] {
+  background-color: #2b2d42;
+}
+
 .stack_container {
   display: flex;
   justify-content: center;
@@ -112,6 +117,7 @@ a {
 .btn-project-details {
   width: 70%;
   border: none;
+
   /* font-size: x-large; */
   height: 54px;
   font-weight: bolder;
@@ -129,6 +135,7 @@ a {
   height: 3.5rem;
   width: 50%;
   border: none;
+
   /* font-size: xx-large; */
   font-weight: bolder;
   margin-top: 2rem;
@@ -213,6 +220,10 @@ a {
   width: 30%;
 }
 
+.desktop {
+  display: none;
+}
+
 @media screen and (min-width: 465px) {
   .social-buttons ul {
     padding: 0;
@@ -228,6 +239,43 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .desktop {    
+    display: grid;  
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+  .card_item {
+    border: 0 solid;
+    padding: 5%;
+    transition: transform 1s;
+  }
+
+  .card_item:hover {
+    border: 2px solid #2b2d42;
+    box-shadow: 0 0 10px #2b2d42;
+    background-color: #2b2d42;
+    color: whitesmoke;
+    transform: scale(1.1);
+
+  }
+
+  .card_title {
+    text-align: center;
+    padding: 3% 0;
+  }
+
+  .card_title:hover {
+    color: whitesmoke;
+  }
+
+  .stack_container {
+    margin-top: 10%;
+  }
   .btn-project-details {
     width: 50%;
   }
@@ -288,8 +336,8 @@ a {
   /* .contact-section {
     padding: 0 15rem;
     .contact-section {
-      /* padding: 0 2rem; 
-  
+      /* padding: 0 2rem;
+
   } */
 
   .contact-text {
@@ -354,7 +402,7 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-  .contact-section {    
+  .contact-section {
     padding: 0 15%;
   }
 
@@ -363,8 +411,7 @@ a {
     transform: translate(-100%, 0);
   }
 
-.icon {
-  
+  .icon {
     padding: 4%;
     width: 20%;
     border-radius: 50%;
@@ -372,9 +419,7 @@ a {
     text-align: center;
     margin-left: 0%;
     font-size: 30px;
-
-}
-
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -384,7 +429,8 @@ a {
   }
 
   .social-buttons ul li:hover {
-    transform: translate(25%, 0);
+    transform: translate(35%, 0);
+    font-size: large;
   }
 
   .media-name {
@@ -392,4 +438,3 @@ a {
     margin: 0 7%;
   }
 }
-
