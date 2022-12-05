@@ -115,12 +115,13 @@ a {
 }
 
 .btn-project-details {
-  width: 70%;
+  width: 80%;
   border: none;
 
   /* font-size: x-large; */
   height: 54px;
   font-weight: bolder;
+  font-size: 80%;
 }
 
 .about-me-text p {
@@ -275,9 +276,6 @@ a {
 
   .stack_container {
     margin-top: 10%;
-  }
-  .btn-project-details {
-    width: 50%;
   }
 
   .intro-text {

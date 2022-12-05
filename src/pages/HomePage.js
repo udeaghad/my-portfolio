@@ -37,7 +37,7 @@ const HomePage = ({ projects }) => {
          fontFamily: 'Nerko One', fontWeight: 400, mt: 10, width: '65%',
        }}
      >
-       Pretty code by ingenious person
+       Pretty code by an ingenious person
      </Typography>
      )}
         <div>
