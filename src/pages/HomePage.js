@@ -8,9 +8,8 @@ import ContactMe from '../components/ContactMe';
 import ResponsiveAppBar from '../components/NavBar';
 
 const HomePage = ({ projects }) => {
-  const tablet = useMediaQuery('(min-width:768px), (max-width:1023px)');
-  const mobile = useMediaQuery('(min-width:300px), (max-width:767px)');
-  const desktop = useMediaQuery('(min-width:1024px)');
+  const mobile = useMediaQuery('(max-width:600px)');
+  const desktop = useMediaQuery('(min-width:601px)');
 
   return (
     <>
@@ -42,19 +41,6 @@ const HomePage = ({ projects }) => {
      </Typography>
      )}
 
-        {tablet
-     && (
-     <Typography
-       variant="h2"
-       component="div"
-       gutterBottom
-       sx={{
-         fontFamily: 'Nerko One', fontWeight: 400, mt: 8, width: '65%',
-       }}
-     >
-       Pretty code by an ingenious person
-     </Typography>
-     )}
         <div>
           <p className="intro-text">
             My name is Dozie Udeagha and am a full stack web developer with a background in
