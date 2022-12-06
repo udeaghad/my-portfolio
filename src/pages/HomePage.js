@@ -8,8 +8,8 @@ import ContactMe from '../components/ContactMe';
 import ResponsiveAppBar from '../components/NavBar';
 
 const HomePage = ({ projects }) => {
-  const mobile = useMediaQuery('(max-width:600px)');
-  const desktop = useMediaQuery('(min-width:601px)');
+  const mobile = useMediaQuery('(max-width:768px)');
+  const desktop = useMediaQuery('(min-width:769px)');
 
   return (
     <>
@@ -30,7 +30,7 @@ const HomePage = ({ projects }) => {
         {desktop
      && (
      <Typography
-       variant="h1"
+       variant="h2"
        component="div"
        gutterBottom
        sx={{
