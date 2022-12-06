@@ -12,8 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 
-const pages = ['Portfolio', 'About', 'Contact'];
-// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['My Projects', 'About', 'Contact'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

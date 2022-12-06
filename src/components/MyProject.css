@@ -116,10 +116,6 @@ a {
   background-image: url("../../public/images/next-icon.png");
 }
 
-/* .about_me_container {
-  position: relative;
-  z-index: 10;
-} */
 
 .about-me-text p {
   background-color: #2b2d42;
@@ -239,7 +235,7 @@ a {
 @media screen and (min-width: 768px) {
   .desktop {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
     gap: 1rem;
   }
@@ -249,9 +245,10 @@ a {
   }
 
   .card_item {
-    border: 0 solid;
+    border: 4px solid #2b2d42;
     padding: 5%;
     transition: transform 1s;
+    border-radius: 10px;
   }
 
   .card_item:hover {
@@ -292,9 +289,24 @@ a {
   .link-btn {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .link-btn a {
+    width: 50%;
+  }
+
+  .detail-button {
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: 1px solid #2b2d42;
+    background-color: #2b2d42;
+    padding: 0 5px;
+    border-radius: 3px;
   }
 
   .about_me_container {
@@ -395,9 +407,18 @@ a {
   .angelist-icon {
     width: 40%;
   }
+
+  .project_description p {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .desktop {
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
   .contact-section {
     padding: 0 15%;
   }

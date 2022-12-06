@@ -8,8 +8,9 @@ import ContactMe from '../components/ContactMe';
 import ResponsiveAppBar from '../components/NavBar';
 
 const HomePage = ({ projects }) => {
-  const desktop = useMediaQuery('(min-width:768px)');
-  const mobile = useMediaQuery('(max-width:768px)');
+  const tablet = useMediaQuery('(max-width:1023px)');
+  const mobile = useMediaQuery('(max-width:767px)');
+  const desktop = useMediaQuery('(min-width:1024px)');
 
   return (
     <>
@@ -34,7 +35,21 @@ const HomePage = ({ projects }) => {
        component="div"
        gutterBottom
        sx={{
-         fontFamily: 'Nerko One', fontWeight: 400, mt: 10, width: '65%',
+         fontFamily: 'Nerko One', fontWeight: 400, mt: 8, width: '65%',
+       }}
+     >
+       Pretty code by an ingenious person
+     </Typography>
+     )}
+
+        {tablet
+     && (
+     <Typography
+       variant="h2"
+       component="div"
+       gutterBottom
+       sx={{
+         fontFamily: 'Nerko One', fontWeight: 400, mt: 8, width: '65%',
        }}
      >
        Pretty code by an ingenious person
