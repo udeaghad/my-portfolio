@@ -8,8 +8,8 @@ import ContactMe from '../components/ContactMe';
 import ResponsiveAppBar from '../components/NavBar';
 
 const HomePage = ({ projects }) => {
-  const tablet = useMediaQuery('(min-width:768px)');
-  const mobile = useMediaQuery('(min-width:300px)');
+  const tablet = useMediaQuery('(min-width:768px), (max-width:1024px)');
+  const mobile = useMediaQuery('(min-width:300px), (max-width:767px)');
   const desktop = useMediaQuery('(min-width:1024px)');
 
   return (
