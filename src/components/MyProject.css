@@ -103,7 +103,7 @@ a {
   border: none;
   height: 54px;
   font-weight: bolder;
-  font-size: 80%;
+  font-size: x-large;
   position: relative;
   z-index: 10;
 }
