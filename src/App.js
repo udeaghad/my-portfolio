@@ -70,7 +70,7 @@ const App = () => {
     {
       id: 7,
       name: 'Maths Calculator',
-      description: 'This project was to learn React components, React props, and React state. It was later updated to Handle events in a React app, use React life cycle methods, and understand the mechanism of the lifting state. Also, React hooks was used to refactor the components, and Routing was implemented for this SPA.',
+      description: 'This project was to learn React components, React props, and React state. It was later updated to Handle events in a React app, use React life cycle methods, and understand the mechanism of the lifting state. Also, React hooks were used to refactor the components, and Routing was implemented for this SPA.',
       stack: ['HTML/CSS', 'JavaScript', 'React'],
       image: '/images/maths-calculator-app.png',
       source_code: 'https://github.com/udeaghad/my-maths-calculator',
