@@ -76,12 +76,7 @@ const ContactMe = () => {
       </div>
 
       <div className="footer" style={{ marginTop: '2rem' }}>
-        <p className="email" style={{ textAlign: 'center' }}>
-          <a href="mailto:dozie.udeagha@gmail.com">
-            dozie.udeagha@gmail.com
-          </a>
-        </p>
-        <div className="d-flex justify-content-between align-items-center footer-media">
+        <div className="d-flex justify-content-around align-items-center footer-media">
           <a href="https://github.com/udeaghad" alt="github" target="_blank" rel="noreferrer">
             <img src="/images/github-icon.png" alt="github" />
           </a>
@@ -95,7 +90,7 @@ const ContactMe = () => {
           </a>
 
           <a href="https://angel.co/u/dozie-udeagha" alt="angelist" target="_blank" rel="noreferrer">
-            <img src="/images/angelist-icon.png" alt="angelist" style={{ width: '40%' }} />
+            <img src="/images/angelist-icon.png" alt="angelist" style={{ width: '45%' }} />
           </a>
         </div>
         <p style={{ textAlign: 'center', marginTop: '1rem', fontSize: '10px' }}>© 2022 Dozie Udeagha</p>

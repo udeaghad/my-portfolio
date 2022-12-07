@@ -43,11 +43,11 @@ const HomePage = ({ projects }) => {
 
         <div>
           <p className="intro-text">
-            My name is Dozie Udeagha and am a full stack web developer with a background in
-            business, banking and finance. Always passionate about solving problems with code
-            and comfortable pair programming and collaborating. As a lifelong learner, I am
-            always working hard to improve my skills. Do you have a project you need coded?
-            Do not hesitate to contact me.
+            My name is Dozie Udeagha, and I am a Full Stack Web Developer with a
+            background in business, banking, and finance. Always passionate about
+            solving problems with code and comfortable with pair programming and
+            collaborating. As a lifelong learner, I am working hard to improve my skills.
+            Do you have a project you need to code? Do not hesitate to contact me.
           </p>
 
         </div>

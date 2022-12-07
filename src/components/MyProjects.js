@@ -21,7 +21,7 @@ const MyProjects = ({ projects }) => {
   return (
     <section className="project-card" style={{ padding: '0 10%' }}>
       <Typography
-        id="Portfolio"
+        id="Projects"
         variant="h3"
         component="div"
         gutterBottom
