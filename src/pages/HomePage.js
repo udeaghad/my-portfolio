@@ -23,7 +23,7 @@ const HomePage = ({ projects }) => {
        gutterBottom
        sx={{ fontFamily: 'Nerko One', fontWeight: 400, mt: 2 }}
      >
-       Pretty code by an ingenious person
+       Driven by passion, curiosity and inspiration
      </Typography>
      )}
 
@@ -37,7 +37,7 @@ const HomePage = ({ projects }) => {
          fontFamily: 'Nerko One', fontWeight: 400, mt: 8, width: '65%',
        }}
      >
-       Pretty code by an ingenious person
+       Driven by passion, curiosity and inspiration
      </Typography>
      )}
 

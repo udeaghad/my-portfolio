@@ -26,8 +26,9 @@ const AboutMe = () => (
           I am passionate about becoming a full-stack software developer. I enrolled in
           Microverse, where I have spent several months building projects like awesome-book
           and To-Do-list, hotel reservation app, budget app, crypto tracker using ES6 JavaScript
-          syntax, React, Redux, and Ruby on Rails, performing both Test-Driven-Development using
-          Jest and Behaviour Driven Test using RSpec, and following proper Gitflow.
+          syntax, React, Redux, Node, Express, and Ruby on Rails, performing both
+          Test-Driven-Development using Jest and Behaviour Driven Test using RSpec, and following
+          proper Gitflow.
         </p>
 
         <p>
@@ -40,7 +41,7 @@ const AboutMe = () => (
 
       </div>
 
-      <a href="https://drive.google.com/file/d/1G1GomlMzeTpSMCJlYw0IpLIA_GTzlxYP/view?usp=sharing" alt="Resume" target="_blank" rel="noreferrer">
+      <a href="https://drive.google.com/file/d/1yAV_TnypOQzMxivKzEdVGz4ozS89jWxE/view?usp=sharing" alt="Resume" target="_blank" rel="noreferrer">
         <button type="button" className="resume_btn btn btn-primary" style={{ borderRadius: 'unset' }}>Get my resume</button>
       </a>
     </div>
