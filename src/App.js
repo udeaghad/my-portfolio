@@ -53,8 +53,8 @@ const App = () => {
       description: 'This project is about building a mobile web application to check a list of movies and their details using React and Redux. I selected an API that provides numeric data about movies and then built the web app around it.',
       stack: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'Jest'],
       image: '/images/movie-app.png',
-      source_code: 'https://github.com/udeaghad/Javascript-Capston-API-web',
-      demo: 'https://udeaghad.github.io/Javascript-Capston-API-web/dist/',
+      source_code: 'https://github.com/udeaghad/Movie-app',
+      demo: 'https://game-of-throne-movie.netlify.app/',
     },
 
     {
