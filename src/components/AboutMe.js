@@ -15,7 +15,7 @@ const AboutMe = () => (
       </Typography>
       <div className="about_me_text">
         <p>
-          I am full-stack developer who learned how to code at Microverse,
+          I am full-stack developer who graduated from Microverse,
           a remote software development school that uses pair-programming and real-world
           projects to teach JavaScript, React, Redux and Rails.
         </p>
@@ -23,20 +23,25 @@ const AboutMe = () => (
         <p>
           I began my career in a financial institution, where I witnessed the deployment
           of a core banking application, which led to my interest in software development.
-          I am passionate about becoming a full-stack software developer. I enrolled in
-          Microverse, where I have spent several months building projects like awesome-book
-          and To-Do-list, hotel reservation app, budget app, crypto tracker using ES6 JavaScript
-          syntax, React, Redux, Node, Express, and Ruby on Rails, performing both
-          Test-Driven-Development using Jest and Behaviour Driven Test using RSpec, and following
-          proper Gitflow.
+          I am passionate about software development. As a Full Stack Developer, I have
+          built projects like the budget app, hotel reservation app, crypto market app,
+          Recipe app, and awesome-book app using Javascript, React, Redux, Rails, Node,
+          and Express. In addition, performing TDD using Jest, BDD tests using RSpec,
+          and following proper Gitflow.
         </p>
 
         <p>
-          My project management and ITIL certifications have also taught me to follow a project
-          from client description to deployment. I know how to work to tight deadlines because
-          of my experience in financial institutions and the weekly capstone projects we submit
-          at Microverse. I have also been using Zoom nearly daily for the last six months as I
-          pair-program and collaborate with other software developers in different time zones.
+          My project management and ITIL certifications have also taught me to follow a
+          project from client description to deployment. I know how to work to tight
+          deadlines because of my experiences in financial institutions and the weekly
+          capstone projects we submitted at Microverse. Furthermore, I am a strong team
+          player and have worked in a team of 2 - 4 people on different projects and
+          learned to communicate directly with team members and manage conflicts arising
+          from group tasks. Remote collaboration tools like GitHub, Slack, and Zoom are
+          very effective for teamwork, and I have used these tools for the past year while
+          building projects and following proper Gitflow and branching methodology.
+          In addition, I have experience working in an Agile environment, having led and
+          participated in Scrum meetings at Microverse.
         </p>
 
       </div>
