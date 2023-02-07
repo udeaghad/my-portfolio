@@ -18,6 +18,15 @@ const App = () => {
     },
     {
       id: 2,
+      name: 'Pick And Drop App',
+      description: 'This application serves individuals and companies who are into logistic businesses, that is, the business of picking up an item and dropping it at a transport company Park for waybill or the Home of the receiver if within the locality. The application allows companies/individuals to create accounts and pick-up officers/offices. To create an order( request for pickup services), the sender will fill out their details, the receiver\'s details, and the order details. As the Order moves from one point to another, its status is updated.',
+      stack: ['TypeScript', 'JavaScript', 'Node.js', 'MongoDB'],
+      image: '/images/pick-and-drop-app.png',
+      source_code: 'https://github.com/udeaghad/Pick-and-drop',
+      demo: 'https://pick-and-drop.onrender.com/api-docs',
+    },
+    {
+      id: 3,
       name: 'Hotel Booking App',
       description: 'This web application also allows users to find their favorite Hotel around the world and reserve it for a specific date, find information about a hotel on the details page, and cancel a reservation. The project was to test the knowledge of the MERN stack.',
       stack: ['NodeJS', 'ExpressJS', 'MongoDB', 'React', 'Redux'],
@@ -27,7 +36,7 @@ const App = () => {
     },
 
     {
-      id: 3,
+      id: 4,
       name: 'Budget App(Xpenda)',
       description: 'This Ruby on Rails project is about building a mobile web application to manage your budget: you have a list of transactions associated with a category and see how much money is spent and on what. I created an application allowing the user to register and log in so that the data is private.',
       stack: ['Ruby', 'Rails', 'Postgres', 'RSpec'],
@@ -38,7 +47,7 @@ const App = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       name: 'Crypto Tracker',
       description: 'This project is about building a mobile web application to check a list of metrics (numeric values) which I created using React and Redux. I selected an API that provides numeric data about cryptocurrency exchange and then developed the web app using the API.',
       stack: ['React', 'Redux', 'Jest', 'JavaScript'],
@@ -48,7 +57,7 @@ const App = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       name: 'Game of throne movie app',
       description: 'This project is about building a mobile web application to check a list of movies and their details using React and Redux. I selected an API that provides numeric data about movies and then built the web app around it.',
       stack: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'Jest'],
@@ -58,7 +67,7 @@ const App = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       name: "Space Travelers' Hub",
       description: 'In this Project, We worked with live data from the SpaceX API. We built a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
       stack: ['React', 'Redux', 'HTML/CSS', 'JavaScript'],
@@ -68,7 +77,7 @@ const App = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       name: 'Maths Calculator',
       description: 'This project was to learn React components, React props, and React state. It was later updated to Handle events in a React app, use React life cycle methods, and understand the mechanism of the lifting state. Also, React hooks were used to refactor the components, and Routing was implemented for this SPA.',
       stack: ['HTML/CSS', 'JavaScript', 'React'],
