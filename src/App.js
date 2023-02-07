@@ -9,17 +9,17 @@ const App = () => {
   const projects = [
     {
       id: 1,
-      name: 'Hotel Reservation App',
-      description: 'This web application allows users to find their favorite Hotel around the world and reserve it for a specific date, find information about a hotel on the details page, and cancel a reservation. The project was to learn how to work and collaborate in large teams as obtained in real-world situations.',
-      stack: ['React', 'Redux', 'Postgres', 'RSpec', 'Rails'],
-      image: '/images/hotel-reservation-app.png',
-      source_code: 'https://github.com/udeaghad/group-project-hotel-reservation',
-      demo: 'https://hotel-reservation-i2st.onrender.com/',
+      name: 'Hotel Booking App',
+      description: 'This web application also allows users to find their favorite Hotel around the world and reserve it for a specific date, find information about a hotel on the details page, and cancel a reservation. The project was to test the knowledge of the MERN stack.',
+      stack: ['NodeJS', 'ExpressJS', 'MongoDB', 'React', 'Redux'],
+      image: '/images/mern-hotel-api.png',
+      source_code: 'https://github.com/udeaghad/mern-hotel-api',
+      demo: 'https://booooka-hotel-app.netlify.app/',
     },
     {
       id: 2,
       name: 'Pick And Drop App',
-      description: 'This application serves individuals and companies who are into logistic businesses, that is, the business of picking up an item and dropping it at a transport company Park for waybill or the Home of the receiver if within the locality. The application allows companies/individuals to create accounts and pick-up officers/offices. To create an order( request for pickup services), the sender will fill out their details, the receiver\'s details, and the order details. As the Order moves from one point to another, its status is updated.',
+      description: 'This app enables companies/individuals in small-scale delivery businesses to subscribe, receive, monitor, and update orders received from their clients. The clients can also create orders on the app and select any company for delivery services.',
       stack: ['TypeScript', 'JavaScript', 'Node.js', 'MongoDB'],
       image: '/images/pick-and-drop-app.png',
       source_code: 'https://github.com/udeaghad/Pick-and-drop',
@@ -27,12 +27,12 @@ const App = () => {
     },
     {
       id: 3,
-      name: 'Hotel Booking App',
-      description: 'This web application also allows users to find their favorite Hotel around the world and reserve it for a specific date, find information about a hotel on the details page, and cancel a reservation. The project was to test the knowledge of the MERN stack.',
-      stack: ['NodeJS', 'ExpressJS', 'MongoDB', 'React', 'Redux'],
-      image: '/images/mern-hotel-api.png',
-      source_code: 'https://github.com/udeaghad/mern-hotel-api',
-      demo: 'https://booooka-hotel-app.netlify.app/',
+      name: 'Hotel Reservation App',
+      description: 'This web application allows users to find their favorite Hotel around the world and reserve it for a specific date, find information about a hotel on the details page, and cancel a reservation. The project was to learn how to work and collaborate in large teams as obtained in real-world situations.',
+      stack: ['React', 'Redux', 'Postgres', 'RSpec', 'Rails'],
+      image: '/images/hotel-reservation-app.png',
+      source_code: 'https://github.com/udeaghad/group-project-hotel-reservation',
+      demo: 'https://hotel-reservation-i2st.onrender.com/',
     },
 
     {
