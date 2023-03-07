@@ -9,21 +9,21 @@ const App = () => {
   const projects = [
     {
       id: 1,
-      name: 'Hotel Booking App',
-      description: 'This web application also allows users to find their favorite Hotel around the world and reserve it for a specific date, find information about a hotel on the details page, and cancel a reservation. The project was to test the knowledge of the MERN stack.',
-      stack: ['NodeJS', 'ExpressJS', 'MongoDB', 'React', 'Redux'],
-      image: '/images/mern-hotel-api.png',
-      source_code: 'https://github.com/udeaghad/mern-hotel-api',
-      demo: 'https://booooka-hotel-app.netlify.app/',
-    },
-    {
-      id: 2,
       name: 'Pick And Drop App',
       description: 'This app enables companies/individuals in small-scale delivery businesses to subscribe, receive, monitor, and update orders received from their clients. The clients can also create orders on the app and select any company for delivery services.',
       stack: ['TypeScript', 'JavaScript', 'Node.js', 'MongoDB'],
       image: '/images/pick-and-drop-app.png',
       source_code: 'https://github.com/udeaghad/Pick-and-drop',
       demo: 'https://pick-and-drop.onrender.com/api-docs',
+    },
+    {
+      id: 2,
+      name: 'Hotel Booking App',
+      description: 'This web application also allows users to find their favorite Hotel around the world and reserve it for a specific date, find information about a hotel on the details page, and cancel a reservation. The project was to test the knowledge of the MERN stack.',
+      stack: ['NodeJS', 'ExpressJS', 'MongoDB', 'React', 'Redux'],
+      image: '/images/mern-hotel-api.png',
+      source_code: 'https://github.com/udeaghad/mern-hotel-api',
+      demo: 'https://booooka-hotel-app.netlify.app/',
     },
     {
       id: 3,

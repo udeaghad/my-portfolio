@@ -41,12 +41,12 @@ const AboutMe = () => (
           very effective for teamwork, and I have used these tools for the past year while
           building projects and following proper Gitflow and branching methodology.
           In addition, I have experience working in an Agile environment, having led and
-          participated in Scrum meetings at Microverse.
+          participated in Scrum meetings at Microverse and System Trackers Technology.
         </p>
 
       </div>
 
-      <a href="https://drive.google.com/file/d/1aMshkNHU5I5_obOX9-apcfB6ba8OoknH/view?usp=sharing" alt="Resume" target="_blank" rel="noreferrer">
+      <a href="https://drive.google.com/file/d/1yLM6iZxGfrixT--jfEo3VHQ8F1vUcplW/view?usp=sharing" alt="Resume" target="_blank" rel="noreferrer">
         <button type="button" className="resume_btn btn btn-primary" style={{ borderRadius: 'unset' }}>Get my resume</button>
       </a>
     </div>
