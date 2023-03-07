@@ -64,6 +64,8 @@ const AboutMe = () => (
         <p className="skill_group">
           <span>JavaScript(ES6)</span>
           |
+          <span>TypeScript</span>
+          |
           <span>React</span>
           |
           <span>Redux</span>
@@ -77,13 +79,15 @@ const AboutMe = () => (
       <div className="skills_card">
         <h6>Backend</h6>
         <p className="skill_group">
-          <span>Ruby</span>
-          |
-          <span>Rails</span>
+          <span>TypeScript</span>
           |
           <span>Node</span>
           |
           <span>Express</span>
+          |
+          <span>Ruby</span>
+          |
+          <span>Rails</span>
           |
           <span>Postgres</span>
           |
