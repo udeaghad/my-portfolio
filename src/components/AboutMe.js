@@ -15,33 +15,34 @@ const AboutMe = () => (
       </Typography>
       <div className="about_me_text">
         <p>
-          I am full-stack developer who graduated from Microverse,
-          a remote software development school that uses pair-programming and real-world
-          projects to teach JavaScript, React, Redux and Rails.
+          I am a Full Stack Developer with a background in banking and finance.
+          I have a bachelor&apos;s degree in Project Management, MBA in Finance,
+          and more than 7 year experience in banking operations.
+          Also, I am a graduate of Microverse, an online software development school
+          that uses real-world projects to teach JavaScript, React, Redux, and Rails.
         </p>
 
         <p>
           I began my career in a financial institution, where I witnessed the deployment
           of a core banking application, which led to my interest in software development.
           I am passionate about software development. As a Full Stack Developer, I have
-          built projects like the budget app, hotel reservation app, crypto market app,
-          Recipe app, and awesome-book app using Javascript, React, Redux, Rails, Node,
-          and Express. In addition, performing TDD using Jest, BDD tests using RSpec,
-          and following proper Gitflow.
+          built projects like the pick-and-drop app, budget app, hotel reservation app,
+          crypto market app, Recipe app, and awesome-book app using Javascript, React,
+          Redux, Rails, Node, and Express. In addition, performing TDD using Jest, BDD
+          tests using RSpec, and following proper Gitflow.
         </p>
 
         <p>
           My project management and ITIL certifications have also taught me to follow a
           project from client description to deployment. I know how to work to tight
-          deadlines because of my experiences in financial institutions and the weekly
-          capstone projects we submitted at Microverse. Furthermore, I am a strong team
-          player and have worked in a team of 2 - 4 people on different projects and
-          learned to communicate directly with team members and manage conflicts arising
-          from group tasks. Remote collaboration tools like GitHub, Slack, and Zoom are
-          very effective for teamwork, and I have used these tools for the past year while
-          building projects and following proper Gitflow and branching methodology.
-          In addition, I have experience working in an Agile environment, having led and
-          participated in Scrum meetings at Microverse and System Trackers Technology.
+          deadlines. Furthermore, I am a strong team player and have worked in a
+          cross-functional team of 2 - 6 people on projects and learned to communicate
+          directly with team members and manage conflicts arising from group tasks.
+          Remote collaboration tools like GitHub, Slack, and Zoom are very effective for
+          teamwork, and I have used these tools for the past year while building projects
+          and following proper Gitflow and branching methodology. In addition, I have
+          experience working in an Agile environment, having led and participated in
+          Scrum meetings.
         </p>
 
       </div>
