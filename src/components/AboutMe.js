@@ -16,7 +16,7 @@ const AboutMe = () => (
       <div className="about_me_text">
         <p>
           I am a Full Stack Developer with a background in banking and finance.
-          I have a bachelor&apos;s degree in Project Management, MBA in Finance,
+          I have a bachelor&apos;s degree in Project Management, an MBA in Finance,
           and more than 7 year experience in banking operations.
           Also, I am a graduate of Microverse, an online software development school
           that uses real-world projects to teach JavaScript, React, Redux, and Rails.
