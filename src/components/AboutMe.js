@@ -15,34 +15,34 @@ const AboutMe = () => (
       </Typography>
       <div className="about_me_text">
         <p>
-          I am a Full Stack Developer with a background in banking and finance.
-          I have a bachelor&apos;s degree in Project Management, MBA in Finance,
-          and more than 7 year experience in banking operations.
-          Also, I am a graduate of Microverse, an online software development school
-          that uses real-world projects to teach JavaScript, React, Redux, and Rails.
+          As a skilled Full Stack Developer with experience in building scalable, secured,
+          and high-performing applications, I am passionate about creating innovative and
+          efficient solutions to complex problems. With a background in Banking and Finance
+          and an MBA, I bring a unique perspective to my work that is grounded in business
+          strategy and customer needs.
         </p>
 
         <p>
-          I began my career in a financial institution, where I witnessed the deployment
-          of a core banking application, which led to my interest in software development.
-          I am passionate about software development. As a Full Stack Developer, I have
-          built projects like the pick-and-drop app, budget app, hotel reservation app,
-          crypto market app, Recipe app, and awesome-book app using Javascript, React,
-          Redux, Rails, Node, and Express. In addition, performing TDD using Jest, BDD
-          tests using RSpec, and following proper Gitflow.
+          I have experience collaborating remotely with cross-functional teams of developers
+          and contributing to code bases, as well as refactoring legacy code to improve
+          maintainability and efficiency. I have also worked on personal projects, including
+          a delivery app and a budget app, using technologies such as JavaScript, TypeScript,
+          Node.js, Express.js, React, Redux, PostgreSQL, and MongoDB.
         </p>
 
         <p>
-          My project management and ITIL certifications have also taught me to follow a
-          project from client description to deployment. I know how to work to tight
-          deadlines. Furthermore, I am a strong team player and have worked in a
-          cross-functional team of 2 - 6 people on projects and learned to communicate
-          directly with team members and manage conflicts arising from group tasks.
-          Remote collaboration tools like GitHub, Slack, and Zoom are very effective for
-          teamwork, and I have used these tools for the past year while building projects
-          and following proper Gitflow and branching methodology. In addition, I have
-          experience working in an Agile environment, having led and participated in
-          Scrum meetings.
+          As a Service Manager at Sterling Bank Plc, I gained experience in first-level support
+          maintenance for ATMs and streamlined processes that led to a significant increase in
+          account openings. With a Full Stack Web Development Program and 1300+ hours of experience
+          mastering algorithms and data structures, I have honed my skills in remote pair
+          programming, code reviews, and communication and collaboration with international remote
+          developers. My project management and ITIL certifications have also taught me to follow a
+          project from client description to deployment.
+        </p>
+
+        <p>
+          I am eager to continue growing as a developer and working on challenging projects that
+          make a positive impact.
         </p>
 
       </div>
