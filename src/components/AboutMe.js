@@ -23,11 +23,12 @@ const AboutMe = () => (
         </p>
 
         <p>
-          I have experience collaborating remotely with cross-functional teams of developers
-          and contributing to code bases, as well as refactoring legacy code to improve
-          maintainability and efficiency. I have also worked on personal projects, including
-          a delivery app and a budget app, using technologies such as JavaScript, TypeScript,
-          Node.js, Express.js, React, Redux, PostgreSQL, and MongoDB.
+          I have experience collaborating remotely in cross-functional teams,  contributing
+          to code bases, as well as refactoring legacy code to improve maintainability and
+          efficiency. I have also worked on personal projects, including PlanAway,
+          a banking app, a delivery app, and a budget app, using technologies such as
+          JavaScript, TypeScript, Node.js, Express.js, React, Redux, PostgreSQL, MySQL,
+          and MongoDB.
         </p>
 
         <p>
@@ -37,7 +38,7 @@ const AboutMe = () => (
           development journey. With a Full Stack Web Development Program and 1300+ hours of
           experience mastering algorithms and data structures, I have honed my skills in remote
           pair programming, code reviews, and communication and collaboration with international
-          remote developers. My project management and ITIL certifications have also taught me to
+          remote developers. My Project Management and ITIL Certifications have also taught me to
           follow a project from client description to deployment.
         </p>
 
@@ -47,7 +48,6 @@ const AboutMe = () => (
         </p>
 
       </div>
-
       <a href="https://drive.google.com/file/d/1-DAmrBi1YFwwP9V5JSnRvJl9Z0-eWcmX/view?usp=sharing" alt="Resume" target="_blank" rel="noreferrer">
         <button type="button" className="resume_btn btn btn-primary" style={{ borderRadius: 'unset' }}>Get my resume</button>
       </a>
@@ -64,7 +64,7 @@ const AboutMe = () => (
       <div className="skills_card">
         <h6>Front End</h6>
         <p className="skill_group">
-          <span>JavaScript(ES6)</span>
+          <span>JavaScript</span>
           |
           <span>TypeScript</span>
           |
@@ -75,6 +75,10 @@ const AboutMe = () => (
           <span>HTML</span>
           |
           <span>CSS</span>
+          |
+          <span>Material UI</span>
+          |
+          <span>TailwindCSS</span>
         </p>
       </div>
 
@@ -91,9 +95,9 @@ const AboutMe = () => (
           |
           <span>Rails</span>
           |
-          <span>Postgres</span>
+          <span>SQL Databases</span>
           |
-          <span>MongoDB</span>
+          <span>NoSQL Databases</span>
         </p>
       </div>
       <div className="skills_card">
