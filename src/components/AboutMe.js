@@ -33,12 +33,12 @@ const AboutMe = () => (
         <p>
           As a Service Manager at Sterling Bank Plc, I gained experience in first-level support
           maintenance and streamlined processes that led to a significant increase in
-          account openings. I have brought along with me these experiences in my software development 
-          journey. With a Full Stack Web Development Program and 1300+ hours of experience
-          mastering algorithms and data structures, I have honed my skills in remote pair
-          programming, code reviews, and communication and collaboration with international remote
-          developers. My project management and ITIL certifications have also taught me to follow a
-          project from client description to deployment.
+          account openings. I have brought along with me these experiences in my software
+          development journey. With a Full Stack Web Development Program and 1300+ hours of
+          experience mastering algorithms and data structures, I have honed my skills in remote
+          pair programming, code reviews, and communication and collaboration with international
+          remote developers. My project management and ITIL certifications have also taught me to
+          follow a project from client description to deployment.
         </p>
 
         <p>

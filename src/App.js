@@ -31,7 +31,7 @@ const App = () => {
       image: '/images/pick-and-drop-app.png',
       source_code: 'https://github.com/udeaghad/Pick-and-drop',
       demo: 'https://pick-and-drop.onrender.com/api-docs',
-    },    
+    },
     {
       id: 4,
       name: 'Crypto Tracker',
@@ -81,7 +81,6 @@ const App = () => {
       demo: 'https://xpenda-app.onrender.com/',
 
     },
-
 
     {
       id: 9,
