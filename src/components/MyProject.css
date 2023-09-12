@@ -1,0 +1,474 @@
+.App {
+  background-color: whitesmoke;
+  color: #2b2d42;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.intro-text {
+  background-color: #2b2d42;
+  padding: 5%;
+  border: 1px white solid;
+  color: #edf2f4;
+  border-radius: 10px;
+}
+
+.icon {
+  padding: 2%;
+  width: 10%;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.project_card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.social-buttons {
+  position: fixed;
+  top: 30%;
+  z-index: 0;
+}
+
+.social-buttons ul {
+  padding: 0;
+  transform: translate(-95%, 0);
+}
+
+.social-buttons ul li {
+  background: #0d6efd;
+  display: block;
+  margin: 1%;
+  width: 300px;
+  padding: 8px;
+  text-align: right;
+  border-radius: 0 30px 30px 0;
+  transition: all 1s;
+}
+
+.social-buttons ul li:hover {
+  transform: translate(30%, 0);
+}
+
+.social-buttons ul li i {
+  color: #2b2d42;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.media-name {
+  color: whitesmoke;
+  margin: 0 7%;
+}
+
+.card_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carousel-indicators {
+  top: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #2b2d42;
+}
+
+.stack_container {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.btn-project-details {
+  width: 80%;
+  border: none;
+  height: 54px;
+  font-weight: bolder;
+  font-size: x-large;
+  position: relative;
+  z-index: 10;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../../public/images/prev-icon.png");
+}
+
+.carousel-control-next-icon {
+  background-image: url("../../public/images/next-icon.png");
+}
+
+.about-me-text p {
+  background-color: #2b2d42;
+  padding: 5%;
+  border: 1px white solid;
+  border-radius: 10px;
+  color: #edf2f4;
+}
+
+.resume_btn {
+  height: 3.5rem;
+  width: 50%;
+  border: none;
+  font-weight: bolder;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.contact-button {
+  height: 3.5rem;
+  width: 50%;
+  border: none;
+  font-weight: bolder;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 10;
+  margin: 0 25%;
+}
+
+.skill_group {
+  font-size: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skills_card {
+  border-bottom: 2px solid darkslategray;
+  margin-top: 10px;
+}
+
+.stack_name {
+  padding: 2px 5px;
+  color: whitesmoke;
+}
+
+.detail_container {
+  padding: 0.5rem;
+  margin: 2rem 0;
+  background-color: whitesmoke;
+}
+
+.link-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.modal-style {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  border: 2px solid #000;
+  box-shadow: 12px 12px 24px #000;
+  padding: 4px;
+  margin-top: 20px;
+  overflow: scroll;
+  max-height: 100vh;
+  padding-top: 20%;
+}
+
+.media-title {
+  font-size: 1.5rem;
+}
+
+.contact-section {
+  padding: 0 3rem;
+  background-color: #2b2d42;
+  padding-top: 30px;
+}
+
+.contact-text {
+  color: whitesmoke;
+}
+
+.name-email-field label,
+.text-area-field label {
+  color: whitesmoke;
+  width: 100%;
+}
+
+.project_description p {
+  background-color: #2b2d42;
+  padding: 5%;
+  border: 1px white solid;
+  color: #edf2f4;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  height: 23rem;
+}
+
+.footer-media img {
+  width: 30%;
+}
+
+.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 465px) {
+  .social-buttons ul {
+    padding: 0;
+    transform: translate(-96%, 0);
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .social-buttons ul {
+    padding: 0;
+    transform: translate(-100%, 0);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .card_item {
+    border: 4px solid #2b2d42;
+    padding: 5%;
+    transition: transform 1s;
+    border-radius: 10px;
+  }
+
+  .card_item:hover {
+    border: 2px solid #2b2d42;
+    box-shadow: 0 0 10px #2b2d42;
+    background-color: #2b2d42;
+    color: whitesmoke;
+    transform: scale(1.1);
+  }
+
+  .card_title {
+    text-align: center;
+    padding: 3% 0;
+  }
+
+  .card_title:hover {
+    color: whitesmoke;
+  }
+
+  .stack_container {
+    margin-top: 10%;
+  }
+
+  .intro-text {
+    font-size: 1.3rem;
+    width: 75%;
+  }
+
+  .social-media-container {
+    display: flex;
+  }
+
+  .media-title {
+    font-size: 1.5rem;
+    width: 50%;
+  }
+
+  .link-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    position: relative;
+    z-index: 10;
+  }
+
+  .link-btn a {
+    width: 50%;
+  }
+
+  .detail-button {
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    padding: 0 5px;
+    border-radius: 3px;
+  }
+
+  .detail-button:hover {
+    background-color: #0559d8;
+  }
+
+  .about_me_container {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 5%;
+  }
+
+  .about-me-text {
+    width: 50%;
+  }
+
+  .resume_btn {
+    width: 80%;
+    font-size: x-large;
+  }
+
+  .about-me-text p {
+    font-size: 1.2rem;
+  }
+
+  .skills-col {
+    width: 50%;
+  }
+
+  .skills-heading {
+    font-size: 2rem;
+  }
+
+  .skills_card h6 {
+    font-size: 2rem;
+  }
+
+  .skill_group span {
+    font-size: 1.5rem;
+  }
+
+  .skill_group {
+    font-size: 1.5rem;
+  }
+
+  .contact-text {
+    font-size: 1.5rem;
+  }
+
+  .name-email-field {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .name-email-item {
+    width: 50%;
+  }
+
+  .name-email-field label {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .text-area-item label {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .text-area-field textarea {
+    height: 15rem;
+    font-size: 1.5rem;
+  }
+
+  .name-email-field input {
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-button {
+    font-size: x-large;
+    height: 3.5rem;
+    width: 50%;
+    border: none;
+    font-weight: bolder;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 10;
+    margin: 0 25%;
+  }
+
+  .modal-style {
+    width: 50%;
+  }
+
+  .contact-form {
+    margin: 0 20%;
+  }
+
+  #Contact {
+    padding-top: 5%;
+  }
+
+  .footer-media img {
+    width: 20%;
+  }
+
+  .angelist-icon {
+    width: 40%;
+  }
+
+  .project_description p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .desktop {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .contact-section {
+    padding: 0 15%;
+  }
+
+  .social-buttons ul {
+    padding: 0;
+    transform: translate(-100%, 0);
+  }
+
+  .icon {
+    padding: 4%;
+    width: 20%;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 0%;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .social-buttons ul {
+    padding: 0;
+    transform: translate(-115%, 0);
+  }
+
+  .social-buttons ul li:hover {
+    transform: translate(35%, 0);
+    font-size: large;
+  }
+
+  .media-name {
+    color: whitesmoke;
+    margin: 0 7%;
+  }
+}
