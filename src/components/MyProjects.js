@@ -49,7 +49,11 @@ const MyProjects = ({ projects }) => {
                     <p
                       className="stack_name"
                       key={stack}
-                      style={{ backgroundColor: '#2b2d42' }}
+                      style={{
+                        backgroundColor: '#2b2d42',
+                        border: '1px solid #2b2d42',
+                        borderRadius: '3px',
+                      }}
                     >
                       <span>{stack}</span>
                     </p>
