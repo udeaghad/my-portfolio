@@ -81,6 +81,8 @@ const AboutMe = () => (
           |
           <span>TypeScript</span>
           |
+          <span>NEXTJS</span>
+          |
           <span>React</span>
           |
           <span>Redux</span>

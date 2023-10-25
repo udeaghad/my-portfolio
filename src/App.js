@@ -21,7 +21,7 @@ const App = () => {
       description:
       'In this poject, we have meticulously recreated key components of Pexels.com, encompassing features like the home, video, and upload pages. Utilizing advanced web techniques, I employed the JavaScript Intersection Observer for efficient API fetching and optimized user experience through lazy loading of images.',
       stack: ['NEXTJS', 'JavaScript', 'Zustand', 'Intersection Observer API'],
-      image: '/images/pexel-thumbnail.png',
+      image: '/images/pexels-thumbnail.png',
       source_code: 'https://github.com/udeaghad/pexels-clone',
       demo: 'https://pexels-clone-six.vercel.app/',
     },
