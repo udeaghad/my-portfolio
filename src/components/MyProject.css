@@ -138,10 +138,9 @@ a {
   width: 50%;
   border: none;
   font-weight: bolder;
-  margin-top: 2rem;
   position: relative;
   z-index: 10;
-  margin: 0 25%;
+  margin: 2rem 25% 0 25%;
 }
 
 .skill_group {
@@ -401,10 +400,9 @@ a {
     width: 50%;
     border: none;
     font-weight: bolder;
-    margin-top: 2rem;
     position: relative;
     z-index: 10;
-    margin: 0 25%;
+    margin: 2rem 25% 0 25%;
   }
 
   .modal-style {
@@ -436,6 +434,7 @@ a {
   .desktop {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .contact-section {
     padding: 0 15%;
   }
